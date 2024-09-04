@@ -27,3 +27,8 @@ apt-get install nvidia-driver firmware-misc-nonfree libnvcuvid1 libnvidia-encode
 ```ssh
 systemctl restart docker
 ```
+
+5 - Options
+```ssh
+apt install linux-headers-`uname -r`
+```
